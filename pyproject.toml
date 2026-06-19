@@ -1,0 +1,11 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "refactor"
+version = "1.0.0"
+description = "TypeScript refactoring tool"
+
+[tool.poetry.dependencies]
+python = "^3.8"
